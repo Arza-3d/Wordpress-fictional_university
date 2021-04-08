@@ -5,9 +5,6 @@
 
     greet('John', 'blue');
     greet('Jane', 'green');
-    /*
-        Hi, my name is John, and my favorite color is blue.
-
-        Hi, my name is Jane, and my favorite color is green.
-    */
 ?>
+
+<h1><?php bloginfo('name'); ?></h1>
