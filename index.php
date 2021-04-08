@@ -7,5 +7,5 @@
     greet('Jane', 'green');
 ?>
 
-<h1><?php bloginfo('name'); ?></h1>
-<p><?php bloginfo('description'); ?></p>
+<h1><?php bloginfo('name'); //Amazing University ?></h1>
+<p><?php bloginfo('description'); //We are pretty good ?></p>
