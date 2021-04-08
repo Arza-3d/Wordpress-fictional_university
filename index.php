@@ -1,9 +1,10 @@
 <?php
     function myFirstFunction() {
-        echo 2 + 2;
+        echo "This is my first function";
     }
 
     myFirstFunction();
     myFirstFunction();
-    // it will show "44"
+    myFirstFunction();
+    // it will show 3 paragraph
 ?>
