@@ -1,6 +1,6 @@
 <?php
     function myFirstFunction() {
-        echo "This is my first function";
+        echo "<p>Hello, This is my first function.</p>";
     }
 
     myFirstFunction();
