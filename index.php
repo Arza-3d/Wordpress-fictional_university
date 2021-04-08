@@ -8,4 +8,4 @@
 ?>
 
 <h1><?php bloginfo('name'); ?></h1>
-// Fictional University
+<p><?php bloginfo('description'); ?></p>
