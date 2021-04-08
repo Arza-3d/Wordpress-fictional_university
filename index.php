@@ -1,10 +1,13 @@
 <?php
-    function myFirstFunction() {
-        echo "<p>Hello, This is my first function.</p>";
+    function greet($name, $color) {
+        echo "<p>Hi, my name is $name, and my favorite color is $color.</p>";
     }
 
-    myFirstFunction();
-    myFirstFunction();
-    myFirstFunction();
-    // it will show 3 paragraph
+    greet('John', 'blue');
+    greet('Jane', 'green');
+    /*
+        Hi, my name is John, and my favorite color is blue.
+
+        Hi, my name is Jane, and my favorite color is green.
+    */
 ?>
